@@ -37,6 +37,7 @@ namespace ex_2
 
             double sum = y1 + y2 + y3;
 
+
             Console.WriteLine("sum={0}", sum);
 
 
