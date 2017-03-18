@@ -30,7 +30,7 @@ namespace perevod_10to2
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(a);
             string perevod = Perevod(a);
-            Console.WriteLine("Ваше число в двоичной СС={0}", perevod);
+            Console.WriteLine("Ваше число в двоичной СС={0}", perevod);//вывод ответа
 
             Console.ReadKey();
         }
