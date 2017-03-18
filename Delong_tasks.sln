@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "znachenie_y_by_metod", "znachenie_y_by_metod\znachenie_y_by_metod.csproj", "{9F24960B-C394-411E-80A7-DD7EC333A2FE}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "petimetr_trapecii", "petimetr_trapecii\petimetr_trapecii.csproj", "{64FEACF6-8E75-474B-A8CB-6EDB960F0078}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perimetr_treugolnika_po_koordinatam", "Perimetr_treugolnika_po_koordinatam\Perimetr_treugolnika_po_koordinatam.csproj", "{54CE5DE4-7CD4-4682-9A91-74B0726AC835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "perevod_10to2", "perevod_10to2\perevod_10to2.csproj", "{FB625F13-F6DF-4EC4-9685-561D40102317}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{54CE5DE4-7CD4-4682-9A91-74B0726AC835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54CE5DE4-7CD4-4682-9A91-74B0726AC835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54CE5DE4-7CD4-4682-9A91-74B0726AC835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB625F13-F6DF-4EC4-9685-561D40102317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB625F13-F6DF-4EC4-9685-561D40102317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB625F13-F6DF-4EC4-9685-561D40102317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB625F13-F6DF-4EC4-9685-561D40102317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
