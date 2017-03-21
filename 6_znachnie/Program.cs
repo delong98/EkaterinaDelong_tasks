@@ -16,12 +16,9 @@ namespace _6_znachnie
             int sumL = 0;
             int copyi = i;
 
-
             levaya = copyi / 1000;
 
             pravaya = copyi % 1000;
-
-
 
             for (int a = 2; a >= 0; a--)
             {
@@ -29,24 +26,21 @@ namespace _6_znachnie
                 levaya = levaya % (int)Math.Pow(10, a);
             }
 
-
-
-
             for (int b = 2; b >= 0; b--)
             {
                 sumP += pravaya / (int)Math.Pow(10, b);
                 pravaya = pravaya % (int)Math.Pow(10, b);
             }
 
-
             if (sumP == sumL)
             {
                 Console.WriteLine("{0}-счастливое число", i);
             }
             return i;
-
-
         }
+
+
+
         static void Main(string[] args)
         {
             for (int i = 100000; i < 999999; i++)
