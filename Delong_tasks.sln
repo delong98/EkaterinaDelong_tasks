@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perimetr_treugolnika_po_koo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "perevod_10to2", "perevod_10to2\perevod_10to2.csproj", "{FB625F13-F6DF-4EC4-9685-561D40102317}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schastlivie_6_znachnie", "schastlivie_6_znachnie\schastlivie_6_znachnie.csproj", "{0C158C1A-B22A-40F0-9B00-A49C4DD68035}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_znachnie", "6_znachnie\6_znachnie.csproj", "{0D58A4A2-535F-4E61-981E-C5C1B9C17829}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{FB625F13-F6DF-4EC4-9685-561D40102317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB625F13-F6DF-4EC4-9685-561D40102317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB625F13-F6DF-4EC4-9685-561D40102317}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C158C1A-B22A-40F0-9B00-A49C4DD68035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C158C1A-B22A-40F0-9B00-A49C4DD68035}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C158C1A-B22A-40F0-9B00-A49C4DD68035}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C158C1A-B22A-40F0-9B00-A49C4DD68035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D58A4A2-535F-4E61-981E-C5C1B9C17829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D58A4A2-535F-4E61-981E-C5C1B9C17829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D58A4A2-535F-4E61-981E-C5C1B9C17829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D58A4A2-535F-4E61-981E-C5C1B9C17829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
