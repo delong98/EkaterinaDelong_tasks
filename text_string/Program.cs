@@ -11,23 +11,23 @@ namespace text_string
         static int Bukva(string smallText, string ш)
         {
             int count = 0;
-
-
             for (int i = 0; i < smallText.Length; i++)
             {
                 if (smallText[i] == ш[0])
                 {
                     count++;
                 }
-
             }
             return count;
         }
+
+
 
         static double Procent(double bukva, double allBukvi)
         {
             return (bukva * 100 / allBukvi);
         }
+
 
 
         static void Main(string[] args)
@@ -45,8 +45,7 @@ namespace text_string
 
             string smallText = text.ToLower();
             Console.WriteLine("Текст нижним регистром: " + smallText);
-
-
+            
             double bukva = Bukva(smallText, "ш");
             Console.WriteLine("Количество буквы: " + bukva);
 
