@@ -8,12 +8,26 @@ namespace text_string
 {
     class ReadFromFile
     {
-        static int Bukva(string smallText, string ш)
+        static bool SearchInUnique(string uniqueStr, char copysimbol)
+        {
+            for (int i = 0; i < uniqueStr.Length; i++)
+            {
+                if (uniqueStr[i] == copysimbol)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+
+
+        static int Count(string smallText, string simbol)
         {
             int count = 0;
             for (int i = 0; i < smallText.Length; i++)
             {
-                if (smallText[i] == ш[0])
+                if (smallText[i] == simbol[0])
                 {
                     count++;
                 }
@@ -45,15 +59,40 @@ namespace text_string
 
             string smallText = text.ToLower();
             Console.WriteLine("Текст нижним регистром: " + smallText);
-            
-            double bukva = Bukva(smallText, "ш");
-            Console.WriteLine("Количество буквы: " + bukva);
+
+            string simbol = "ш";
+            char copysimbol = Convert.ToChar(simbol);
+            double count = Count(smallText, simbol);
+            Console.WriteLine("Количество буквы: " + count);
 
             double allBukvi = smallText.Length;
-            double procent = Procent(bukva, allBukvi);
+            double procent = Procent(count, allBukvi);
             Console.WriteLine("Процентное выражение буквы среди символов:" + procent);
+
+            string uniqueChar = "";
+
+            foreach (char i in smallText)
+            {
+                if (uniqueChar.Length == 0)
+                {
+                    uniqueChar = uniqueChar + i;
+                }
+                else
+                {
+                    bool lokal = SearchInUnique(uniqueChar, i);
+                    if (lokal)
+                    {
+                        uniqueChar = uniqueChar + i;
+
+                    }
+                }
+
+            }
+            Console.WriteLine("Уникальные символы: " + uniqueChar);
+
 
             Console.ReadKey();
         }
     }
 }
+    
