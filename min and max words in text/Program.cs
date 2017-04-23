@@ -12,7 +12,6 @@ namespace min_and_max_slovo_in_text
         {
             int kolvo = 0;
             kolvo = slovo.Length;
-
             return kolvo;
         }
 
@@ -59,8 +58,6 @@ namespace min_and_max_slovo_in_text
             string slovaMin = null;
             int min = PoiskMin(textSlova, max);
             Console.WriteLine("минимальная длина слова " + min);
-
-
 
             for (int i = 0; i < textSlova.Length; i++)
             {
