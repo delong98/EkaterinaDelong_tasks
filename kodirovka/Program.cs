@@ -12,10 +12,13 @@ namespace kodirovka
         {
             string text = System.IO.File.ReadAllText(@"C:\Users\Екатерина\Desktop\WriteText.txt");
             string smallText1 = text.ToLower();
-            Console.WriteLine(smallText1);
+           // Console.WriteLine(smallText1);
 
             string[] smallText2 = new string[smallText1.Length];
             string[] smallText3 = new string[smallText1.Length];
+
+            string newText = null;
+            string oldText = null;
 
             Random rnd = new Random();
             int value = rnd.Next(1, 7);
@@ -27,25 +30,29 @@ namespace kodirovka
                 Console.WriteLine(symbol);
                 int nomerS = symbol;
                 int newNomer = nomerS + value;
-                Console.WriteLine(newNomer);
+                //Console.WriteLine(newNomer);
                 char newSymbol = (char)newNomer;
-                Console.WriteLine(newSymbol);
+                //Console.WriteLine(newSymbol);
                 smallText2[i] = Convert.ToString(newSymbol);
+                newText = newText + newSymbol;
             }
-            //и потом не знаю как вывести текст
+            Console.WriteLine(newText);
+
+         
             Console.WriteLine("ДЕКОДИРОВАНИЕ");
             for (int i = 0; i < smallText2.Length; i++)
             {
                 char symbol = Convert.ToChar(smallText2[i]);
-                Console.WriteLine(symbol);
+                //Console.WriteLine(symbol);
                 int nomerS = symbol;
                 int oldNomer = nomerS - value;
-                Console.WriteLine(oldNomer);
+                //Console.WriteLine(oldNomer);
                 char oldSymbol = (char)oldNomer;
-                Console.WriteLine(oldSymbol);
+                //Console.WriteLine(oldSymbol);
                 smallText3[i] = Convert.ToString(oldSymbol);
+                oldText = oldText + oldSymbol;
             }
-            //и потом не знаю как вывести текст
+            Console.WriteLine(oldText);
 
             Console.ReadKey();
         }
