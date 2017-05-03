@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kodirovka", "kodirovka\kodi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRUZOPODYOMNOST", "GRUZOPODYOMNOST\GRUZOPODYOMNOST.csproj", "{C029EA95-D2B1-4693-9A58-849A43347914}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poisk 18", "poisk 18\poisk 18.csproj", "{93181228-825A-4A7B-8F0C-D03883B5384B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{C029EA95-D2B1-4693-9A58-849A43347914}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C029EA95-D2B1-4693-9A58-849A43347914}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C029EA95-D2B1-4693-9A58-849A43347914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93181228-825A-4A7B-8F0C-D03883B5384B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93181228-825A-4A7B-8F0C-D03883B5384B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93181228-825A-4A7B-8F0C-D03883B5384B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93181228-825A-4A7B-8F0C-D03883B5384B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
