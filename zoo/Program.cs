@@ -23,12 +23,13 @@ namespace zoo
 
                 string znachenie = punkt[0];
                 string newZnachenie = znachenie.ToLower();
-                Console.WriteLine(newZnachenie);
+                
                 if (newZnachenie == "уссурийский тигр")
                 {
-                    Console.WriteLine("Название животного: {0}\r\nколичество вида: {1}\r\nадрес зоопарка: {2}\r\nобщее количество животных(в тоннах): {3}\r\nколичсетво работников: {4}\r\n", punkt[0], punkt[1], punkt[2], punkt[3], punkt[4]);
+                    Console.WriteLine("Название животного: {0}\r\nколичество вида: {1}\r\nадрес зоопарка: {2}\r\nобщее количество животных(в тоннах): {3}\r\nколичество работников: {4}\r\n", punkt[0], punkt[1], punkt[2], punkt[3], punkt[4]);
                 }
             }
+            Console.ReadKey();
         }
     }
 }
