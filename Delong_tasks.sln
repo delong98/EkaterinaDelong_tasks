@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poisk year", "poisk year\po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "last znachenie", "last znachenie\last znachenie.csproj", "{93836426-6482-42F3-A228-E81F5DD6928F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "raznost kubov", "raznost kubov\raznost kubov.csproj", "{53EAC7D7-4758-4B1D-93C8-7EB7CAE83919}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{93836426-6482-42F3-A228-E81F5DD6928F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93836426-6482-42F3-A228-E81F5DD6928F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93836426-6482-42F3-A228-E81F5DD6928F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EAC7D7-4758-4B1D-93C8-7EB7CAE83919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EAC7D7-4758-4B1D-93C8-7EB7CAE83919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EAC7D7-4758-4B1D-93C8-7EB7CAE83919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EAC7D7-4758-4B1D-93C8-7EB7CAE83919}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
