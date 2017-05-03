@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRUZOPODYOMNOST", "GRUZOPOD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poisk 18", "poisk 18\poisk 18.csproj", "{93181228-825A-4A7B-8F0C-D03883B5384B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zoo", "zoo\zoo.csproj", "{EDB9D50F-FF84-4178-A254-6A89910C6B7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{93181228-825A-4A7B-8F0C-D03883B5384B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93181228-825A-4A7B-8F0C-D03883B5384B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93181228-825A-4A7B-8F0C-D03883B5384B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB9D50F-FF84-4178-A254-6A89910C6B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB9D50F-FF84-4178-A254-6A89910C6B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB9D50F-FF84-4178-A254-6A89910C6B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB9D50F-FF84-4178-A254-6A89910C6B7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
