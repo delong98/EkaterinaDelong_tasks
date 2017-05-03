@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "znachenie_y_by_metod", "znachenie_y_by_metod\znachenie_y_by_metod.csproj", "{9F24960B-C394-411E-80A7-DD7EC333A2FE}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zoo", "zoo\zoo.csproj", "{EDB9D50F-FF84-4178-A254-6A89910C6B7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poisk year", "poisk year\poisk year.csproj", "{8C46096E-35F1-48F9-8BFB-C67A4F32629D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "last znachenie", "last znachenie\last znachenie.csproj", "{93836426-6482-42F3-A228-E81F5DD6928F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{8C46096E-35F1-48F9-8BFB-C67A4F32629D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C46096E-35F1-48F9-8BFB-C67A4F32629D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C46096E-35F1-48F9-8BFB-C67A4F32629D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93836426-6482-42F3-A228-E81F5DD6928F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93836426-6482-42F3-A228-E81F5DD6928F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93836426-6482-42F3-A228-E81F5DD6928F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93836426-6482-42F3-A228-E81F5DD6928F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
