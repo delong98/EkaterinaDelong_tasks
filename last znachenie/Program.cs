@@ -15,7 +15,7 @@ namespace last_znachenie
             Console.WriteLine(text);
             string[] date = text.Split(new char[] { ',' });
             int a = date.Length;
-            Console.WriteLine(date[a-1]);
+            Console.WriteLine("Последний элемент: "+date[a-1]);
 
             Console.ReadKey();
         }
