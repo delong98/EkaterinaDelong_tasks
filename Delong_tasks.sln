@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poisk 18", "poisk 18\poisk 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zoo", "zoo\zoo.csproj", "{EDB9D50F-FF84-4178-A254-6A89910C6B7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poisk year", "poisk year\poisk year.csproj", "{8C46096E-35F1-48F9-8BFB-C67A4F32629D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EDB9D50F-FF84-4178-A254-6A89910C6B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDB9D50F-FF84-4178-A254-6A89910C6B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDB9D50F-FF84-4178-A254-6A89910C6B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C46096E-35F1-48F9-8BFB-C67A4F32629D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C46096E-35F1-48F9-8BFB-C67A4F32629D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C46096E-35F1-48F9-8BFB-C67A4F32629D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C46096E-35F1-48F9-8BFB-C67A4F32629D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
