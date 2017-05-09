@@ -18,7 +18,7 @@ namespace min_date
 
         static void Main(string[] args)
         {
-            string text = File.ReadAllText(@"C:\Users\Екатерина\Desktop\text5.txt");
+            string text = File.ReadAllText(@"C:\Users\Vitaly\Desktop\text5.txt");
             Console.WriteLine(text);
 
             string[] date = text.Split(new char[] { ';' });
@@ -49,7 +49,7 @@ namespace min_date
                 }
                 else if ((minYear < newDate[i].year))
                 {
-                    Console.WriteLine("Минимальная дата: " + minYear + "." + newDate[i-1].month + "." + newDate[i-1].day);
+                    Console.WriteLine("Минимальная дата: " + minYear + "." + newDate[i-1].month + "." + newDate[i+1].day);
                 }
                 
                 else
@@ -63,35 +63,28 @@ namespace min_date
                         else
                         if (minMonth < newDate[i].month)
                     {
-                        Console.WriteLine("Минимальная дата: " + minYear + "." + newDate[i - 1].month + "." + newDate[i - 1].day);
+                        Console.WriteLine("Минимальная дата: " + minYear + "." + newDate[i - 1].month + "." + newDate[i+1].day);
                     }
                         
                         else
-                        {
-                            Console.WriteLine(minMonth);
+                    {
                         if (minDay> newDate[i].day)
                         {
                             minDay = newDate[i].day;
                             continue;
                         }
+
                         else
                         {
                             if (minDay >= newDate[i].day)
                             {
-                                Console.WriteLine("Минимальная дата: " + minYear + "." + newDate[i - 1].month + "." + newDate[i - 1].day);
+                                Console.WriteLine("Минимальная дата: " + minYear + "." + newDate[i - 1].month + "." + newDate[i+1].day);
                             }
                         }
-                        }
-                        
-                            
-                        
-                    
-                 
+                    }
                 }
-
-                Console.ReadKey();
-
             }
+            Console.ReadKey();
         }
     }
 }
