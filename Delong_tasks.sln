@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "znachenie_y_by_metod", "znachenie_y_by_metod\znachenie_y_by_metod.csproj", "{9F24960B-C394-411E-80A7-DD7EC333A2FE}"
 EndProject
@@ -42,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firma", "firma of comp\firma.csproj", "{42E4BBBD-A4DA-4DEF-B396-963FA00CC5D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stoimost", "stoimost\stoimost.csproj", "{E3D2A5BF-ADE2-4AED-BACB-C6AB92A2FF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kvadrat mass", "kvadrat mass\kvadrat mass.csproj", "{2DE9364A-DA45-49DF-8A8B-00DE1F993EF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{E3D2A5BF-ADE2-4AED-BACB-C6AB92A2FF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3D2A5BF-ADE2-4AED-BACB-C6AB92A2FF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3D2A5BF-ADE2-4AED-BACB-C6AB92A2FF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE9364A-DA45-49DF-8A8B-00DE1F993EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE9364A-DA45-49DF-8A8B-00DE1F993EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE9364A-DA45-49DF-8A8B-00DE1F993EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE9364A-DA45-49DF-8A8B-00DE1F993EF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
