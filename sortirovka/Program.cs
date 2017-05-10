@@ -51,22 +51,17 @@ namespace sortirovka
                     i1 = i;
                     continue;
                 }
-                else if (min==b)
-                {
-                    mas[i1, 3] = mas[0, 3];
-                    mas[0, 3] = min;
-                    
-
-                }
+                
                 else
                 {
-                    mas[i1, 3] = mas[0, 3];
-                    mas[0, 3] = min;
+                    i1 = i;
+                    mas[i1,3] = mas[0,3];
+                    mas[0,3] = min;
                     
                 }
                 
             }
-            Console.WriteLine(mas[0, 3]);
+            Console.WriteLine(mas[0,3]);
 
             int i2 = 0;
             int min1 = Convert.ToInt16(punkt[1]);
@@ -75,28 +70,27 @@ namespace sortirovka
                 int c = Convert.ToInt16(punkt[i]);
                 if (min1 > c)
                 {
-                    i2 = i;
+                    
                     min1 = c;
+                    i2 = i;
                     continue;
                 }
-                else if (min1 == c)
+                else 
                 {
-                    mas[i2, 3] = mas[1, 3];
-                    mas[1, 3] = min1;
+                    i2 = i;
+                    mas[i2,3] = mas[1,3];
+                    mas[1,3] = min1;
 
 
                 }
-                else
-                {
-                    mas[i2, 3] = mas[1, 3];
-                    mas[1, 3] = min1;
-
-                }
+                
             }
 
-            Console.WriteLine(mas[1, 3]);
+            Console.WriteLine(mas[1,3]);
 
            
+
+
 
 
 
