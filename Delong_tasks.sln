@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stoimost", "stoimost\stoimo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kvadrat mass", "kvadrat mass\kvadrat mass.csproj", "{2DE9364A-DA45-49DF-8A8B-00DE1F993EF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sortirovka", "sortirovka\sortirovka.csproj", "{0E17C60C-EE3A-43AE-9123-A2FCA307413B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{2DE9364A-DA45-49DF-8A8B-00DE1F993EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE9364A-DA45-49DF-8A8B-00DE1F993EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE9364A-DA45-49DF-8A8B-00DE1F993EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E17C60C-EE3A-43AE-9123-A2FCA307413B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E17C60C-EE3A-43AE-9123-A2FCA307413B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E17C60C-EE3A-43AE-9123-A2FCA307413B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E17C60C-EE3A-43AE-9123-A2FCA307413B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
