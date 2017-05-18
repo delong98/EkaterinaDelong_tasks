@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace proizv_elements
+namespace elements_with_mines
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string text = System.IO.File.ReadAllText(@"C:\Users\Vitaly\Desktop\text1.txt");
+            string text = System.IO.File.ReadAllText(@"C:\Users\Vitaly\Desktop\text2.txt");
             Console.WriteLine("Текст: " + text);
             string[] newMas = text.Split('.');
             string[] element = null;
@@ -34,16 +34,19 @@ namespace proizv_elements
                 Console.WriteLine();
             }
 
-            int proizvedenie = 1;
+            int kolvo = 0;
             for (int i = 0; i < mas.GetLength(0); i++)
             {
-                proizvedenie = proizvedenie * Convert.ToInt32(mas[0][i]);
+                if (Convert.ToInt32(mas[i][1])<0)
+                {
+                    kolvo++;
+                }
             }
 
-            Console.WriteLine("проеизведение элементов 1 строки: " + proizvedenie);
-            string proiz = Convert.ToString(proizvedenie);
+            Console.WriteLine("количество отрицательных элементов во 2 столбце: " + kolvo);
+            string k = Convert.ToString(kolvo);
 
-            System.IO.File.WriteAllText(@"C:\Users\Vitaly\Desktop\text1.txt", proiz);
+           System.IO.File.WriteAllText(@"C:\Users\Vitaly\Desktop\text2.txt", k);
             Console.ReadKey();
         }
     }
