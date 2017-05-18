@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kolvo elementov", "kolvo el
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zamena mest", "zamena mest\zamena mest.csproj", "{D5F20464-4B2A-4482-8F07-6B6815892A9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proizv elements", "proizv elements\proizv elements.csproj", "{AC26CF5F-0C7F-4B68-A59D-EE3D9B1148A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{D5F20464-4B2A-4482-8F07-6B6815892A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5F20464-4B2A-4482-8F07-6B6815892A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5F20464-4B2A-4482-8F07-6B6815892A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC26CF5F-0C7F-4B68-A59D-EE3D9B1148A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC26CF5F-0C7F-4B68-A59D-EE3D9B1148A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC26CF5F-0C7F-4B68-A59D-EE3D9B1148A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC26CF5F-0C7F-4B68-A59D-EE3D9B1148A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
