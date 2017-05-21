@@ -4,37 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace dictionary_words
+namespace dictionary_symbols
 {
     class Program
     {
         static void Main(string[] args)
         {
             string text = System.IO.File.ReadAllText(@"C:\Users\Екатерина\Desktop\text5.txt");
-            string[] newText = text.Split(' ', '-', '.', ',','(', ')', '"');
-
-            string allTetxt = null;
-
-            for (int i = 0; i <newText.Length; i++)
-            {
-                allTetxt += newText[i]+" ";
-            }
-            Console.WriteLine(allTetxt);
-
-
+            text = text.ToLower();
+            Console.WriteLine(text);
 
             var dictionary = new Dictionary<string, int>();
 
-            for (int i = 0; i < newText.Length; i++)
+            for (int i = 0; i < text.Length; i++)
             {
-                if (newText[i] != "") 
+                string symbol = Convert.ToString(text[i]);
+                if (symbol != " ")
                 {
-                    string slovo = Convert.ToString(newText[i]);
-                    if (!dictionary.ContainsKey(slovo))
+                    if (!dictionary.ContainsKey(symbol))
                     {
-                        dictionary[slovo] = 1;
+                        dictionary[symbol] = 1;
                     }
-                    else dictionary[slovo]++;
+                    else dictionary[symbol]++;
                 }
             }
 
@@ -43,7 +34,7 @@ namespace dictionary_words
             {
                 Console.WriteLine(pair.Key + "\t" + pair.Value);
             }
-            
+
 
             Console.ReadKey();
         }

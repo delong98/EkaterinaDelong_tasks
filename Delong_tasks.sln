@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slovari", "slovari\slovari.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary words", "dictionary words\dictionary words.csproj", "{FD1B92DE-7180-4024-84BF-6994BC214847}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary symbols", "dictionary symbols\dictionary symbols.csproj", "{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{FD1B92DE-7180-4024-84BF-6994BC214847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD1B92DE-7180-4024-84BF-6994BC214847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD1B92DE-7180-4024-84BF-6994BC214847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
