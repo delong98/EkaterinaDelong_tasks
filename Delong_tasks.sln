@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "znachenie_y_by_metod", "znachenie_y_by_metod\znachenie_y_by_metod.csproj", "{9F24960B-C394-411E-80A7-DD7EC333A2FE}"
 EndProject
@@ -56,6 +56,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elements with mines", "elements with mines\elements with mines.csproj", "{AD2C6AE2-0326-4D5C-B5DC-5B1A0F29D78B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slovari", "slovari\slovari.csproj", "{2AA5E5B1-D8E6-4CEE-B992-626BF6573FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary words", "dictionary words\dictionary words.csproj", "{FD1B92DE-7180-4024-84BF-6994BC214847}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{2AA5E5B1-D8E6-4CEE-B992-626BF6573FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA5E5B1-D8E6-4CEE-B992-626BF6573FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA5E5B1-D8E6-4CEE-B992-626BF6573FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1B92DE-7180-4024-84BF-6994BC214847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1B92DE-7180-4024-84BF-6994BC214847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1B92DE-7180-4024-84BF-6994BC214847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1B92DE-7180-4024-84BF-6994BC214847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
