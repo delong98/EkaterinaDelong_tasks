@@ -10,7 +10,7 @@ namespace dictionary_symbols
     {
         static void Main(string[] args)
         {
-            string text = System.IO.File.ReadAllText(@"C:\Users\Екатерина\Desktop\text5.txt");
+            string text = System.IO.File.ReadAllText(@"C:\Users\Vitaly\Desktop\text5.txt");
             text = text.ToLower();
             Console.WriteLine(text);
 
