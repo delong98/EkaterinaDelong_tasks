@@ -18,7 +18,7 @@ namespace sortirovka_znach
         static PairForD[] SortirovkaForValue(PairForD[] words, PairForD value, PairForD first, int znach)
         {
             PairForD a = first, b = value;
-            if (value.value > first.value)
+            if (value.value < first.value)
             {
                 words[znach - 1] = b;
                 words[znach] = a;
