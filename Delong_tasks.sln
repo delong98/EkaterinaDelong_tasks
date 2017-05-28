@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary words", "diction
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary symbols", "dictionary symbols\dictionary symbols.csproj", "{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "copmerer", "copmerer\copmerer.csproj", "{E056C946-092B-4F84-9C0C-4248DDF3CF2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E056C946-092B-4F84-9C0C-4248DDF3CF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E056C946-092B-4F84-9C0C-4248DDF3CF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E056C946-092B-4F84-9C0C-4248DDF3CF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E056C946-092B-4F84-9C0C-4248DDF3CF2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
