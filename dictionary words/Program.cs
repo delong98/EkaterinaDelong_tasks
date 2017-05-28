@@ -8,74 +8,71 @@ namespace dictionary_words
 {
     class Program
     {
-        static string[] Poisk(string[] newText, int znach, out string[] copy)
+        static string[] Poisk(string[] allWords, int znach, out string[] copy)
         {
 
             copy = null;
-            int ind=0;
+            int ind=1;
             string min = null;
             string first=null;
             string second=null;
-            first = newText[znach];
-            for (int i = znach; i < newText.Length-1; i++)
+            first = allWords[znach];
+            for (int i = znach; i < allWords.Length-1; i++)
             {
-                if (newText[i+1]!="")
+                second = allWords[i + 1];
+                if (first.Length >= second.Length)
                 {
-                        second = newText[i + 1];
-                        if (first.Length >= second.Length)
+                    
+                    for (int k = 0; k < second.Length; k++)
+                    {
+                        if (first[k] == second[k])
                         {
-                            for (int k = 0; k < second.Length; k++)
-                            {
-                                if (first[k] == second[k])
-                                {
-                                    continue;
-                                }
-                                if (first[k] < second[k])
-                                {
-
-                                    break;
-                                }
-                                else
-                                {
-                                    first = second;
-                                    ind = i;
-                                    break;
-                                }
-                            }
+                            continue;
+                        }
+                        if (first[k] < second[k])
+                        {
+                            
+                            break;
                         }
                         else
                         {
-                            for (int n = 0; n < first.Length; n++)
-                            {
-                                if (first[n] < second[n])
-                                {
-                                    break;
-                                }
-                                if (first[n] == second[n])
-                                {
-                                    continue;
-                                }
-                                else
-                                {
-                                    first = second;
-                                    ind = i;
-                                    break;
-                                }
-                            }
-
+                            first = second;
+                            ind = i;
+                            break;
                         }
-                        
                     }
+                }
+                else
+                {
+                    
+                    for (int n = 0; n < first.Length; n++)
+                    {
+                        if (first[n] < second[n])
+                        {
+                            
+                            break;
+                        }
+                        if (first[n] == second[n])
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            first = second;
+                            ind = i;
+                            break;
+                        }
+                    }
+                }
 
-                
-                
-                
             }
             min = first;
-            string zamena=newText[znach];
-            newText[znach] = min;
-            newText[ind+1] = zamena;
-            copy = newText;
+            string zamena=allWords[znach];
+            allWords[znach] = min;
+            allWords[ind+1] = zamena;
+           
+            copy = allWords;
+            //copy[1] = "было";
             return copy;
             
 
@@ -83,7 +80,7 @@ namespace dictionary_words
         }
         static void Main(string[] args)
         {
-            string text = System.IO.File.ReadAllText(@"C:\Users\vitaly\Desktop\text5.txt");
+            string text = System.IO.File.ReadAllText(@"C:\Users\Екатерина\Desktop\text5.txt");
             text = text.ToLower();
             string[] newText = text.Split(' ', '-', '.', ',','(', ')', '"');
 
@@ -91,9 +88,15 @@ namespace dictionary_words
 
             for (int i = 0; i <newText.Length; i++)
             {
-                allTetxt += newText[i]+",";
+                if (newText[i]!="")
+                {
+                    allTetxt += newText[i] + ",";
+                }
+                
             }
             Console.WriteLine(allTetxt);
+
+            string[] allWords = allTetxt.Split(',');
 
             
             
@@ -121,41 +124,30 @@ namespace dictionary_words
                 words += pair.Key + ',';
             }
             words = words.ToLower();
-            
 
-            
-            
-            
+
+
+
+
+
+
+
             int znach = 0;
-           
-            
-            
             string[] copy = null;
-            for (int i = 0; i < newText.Length-1; i++)
+            for (int i = 0; i < allWords.Length-1; i++)
             {
 
-                if (newText[znach]!="")
-                {
-                    copy = Poisk(newText, znach, out copy);
-                }
-                newText = copy;
+                copy = Poisk(allWords, znach, out copy);
+                
+                allWords = copy;
                 
                 znach++;
             }
-            znach = 0;
-            for (int i = 0; i < newText.Length - 2; i++)
+            
+            
+            for (int i = 0; i < allWords.Length-1; i++)
             {
-                if (newText[znach] != "")
-                {
-                    copy = Poisk(newText, znach, out copy);
-                }
-                newText = copy;
-
-                znach++;
-            }
-            for (int i = 0; i < newText.Length-1; i++)
-            {
-                Console.WriteLine(newText[i]);
+                Console.WriteLine(allWords[i]);
             }
 
             
