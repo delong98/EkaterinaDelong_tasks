@@ -70,13 +70,8 @@ namespace dictionary_words
             string zamena=allWords[znach];
             allWords[znach] = min;
             allWords[ind+1] = zamena;
-           
             copy = allWords;
-            //copy[1] = "было";
             return copy;
-            
-
-
         }
         static void Main(string[] args)
         {
@@ -98,17 +93,23 @@ namespace dictionary_words
 
             string[] allWords = allTetxt.Split(',');
 
-            
-            
-
+            int znach = 1;
+            string[] copy = null;
+            for (int i = 0; i < allWords.Length-1; i++)
+            {
+                copy = Poisk(allWords, znach, out copy);
+                allWords = copy;
+                znach++;
+            }
+            Console.WriteLine();
 
             var dictionary = new Dictionary<string, int>();
 
-            for (int i = 0; i < newText.Length; i++)
+            for (int i = 0; i < allWords.Length; i++)
             {
-                if (newText[i] != "") 
+                if (allWords[i] != "")
                 {
-                    string slovo = Convert.ToString(newText[i]);
+                    string slovo = Convert.ToString(allWords[i]);
                     if (!dictionary.ContainsKey(slovo))
                     {
                         dictionary[slovo] = 1;
@@ -117,44 +118,11 @@ namespace dictionary_words
                 }
             }
 
-            string words = null;
+
             foreach (var pair in dictionary)
             {
                 Console.WriteLine(pair.Key + "\t" + pair.Value);
-                words += pair.Key + ',';
             }
-            words = words.ToLower();
-
-
-
-
-
-
-
-
-            int znach = 1;
-            string[] copy = null;
-            for (int i = 0; i < allWords.Length-1; i++)
-            {
-
-                copy = Poisk(allWords, znach, out copy);
-                
-                allWords = copy;
-                
-                znach++;
-            }
-            
-            
-            for (int i = 0; i < allWords.Length-1; i++)
-            {
-                Console.WriteLine(allWords[i]);
-            }
-
-            
-
-
-
-
             Console.ReadKey();
         }
     }
