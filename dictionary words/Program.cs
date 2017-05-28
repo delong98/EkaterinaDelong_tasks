@@ -12,7 +12,7 @@ namespace dictionary_words
         {
 
             copy = null;
-            int ind=1;
+            int ind=-1;
             string min = null;
             string first=null;
             string second=null;
@@ -132,7 +132,7 @@ namespace dictionary_words
 
 
 
-            int znach = 0;
+            int znach = 1;
             string[] copy = null;
             for (int i = 0; i < allWords.Length-1; i++)
             {
