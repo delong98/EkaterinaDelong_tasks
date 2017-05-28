@@ -55,13 +55,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proizv elements", "proizv e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elements with mines", "elements with mines\elements with mines.csproj", "{AD2C6AE2-0326-4D5C-B5DC-5B1A0F29D78B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slovari", "slovari\slovari.csproj", "{2AA5E5B1-D8E6-4CEE-B992-626BF6573FA0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary words", "dictionary words\dictionary words.csproj", "{FD1B92DE-7180-4024-84BF-6994BC214847}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary symbols", "dictionary symbols\dictionary symbols.csproj", "{2EBBD863-1027-4383-BFB5-CD1CBCA6840A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "copmerer", "copmerer\copmerer.csproj", "{E056C946-092B-4F84-9C0C-4248DDF3CF2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sortirovka znach", "sortirovka znach\sortirovka znach.csproj", "{45193656-A773-402C-8220-344A407080C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,10 +173,6 @@ Global
 		{AD2C6AE2-0326-4D5C-B5DC-5B1A0F29D78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD2C6AE2-0326-4D5C-B5DC-5B1A0F29D78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD2C6AE2-0326-4D5C-B5DC-5B1A0F29D78B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AA5E5B1-D8E6-4CEE-B992-626BF6573FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AA5E5B1-D8E6-4CEE-B992-626BF6573FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AA5E5B1-D8E6-4CEE-B992-626BF6573FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AA5E5B1-D8E6-4CEE-B992-626BF6573FA0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FD1B92DE-7180-4024-84BF-6994BC214847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FD1B92DE-7180-4024-84BF-6994BC214847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD1B92DE-7180-4024-84BF-6994BC214847}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -189,6 +185,10 @@ Global
 		{E056C946-092B-4F84-9C0C-4248DDF3CF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E056C946-092B-4F84-9C0C-4248DDF3CF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E056C946-092B-4F84-9C0C-4248DDF3CF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45193656-A773-402C-8220-344A407080C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45193656-A773-402C-8220-344A407080C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45193656-A773-402C-8220-344A407080C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45193656-A773-402C-8220-344A407080C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
